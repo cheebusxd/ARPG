@@ -33,21 +33,6 @@ h1 {
     text-shadow: 8px 4px 6px rgb(245, 127, 49);
 }
 
-h2 {
-    align-items: center;
-    text-align: center;
-    width: 98%;
-    font-family:Arial, Helvetica, sans-serif;
-    border-radius: 10px;
-    border-width: 20px;
-    border: 5px double #75001E;
-    background-color: black;
-    color: white;
-    margin-left: 5px;
-    padding-top: 8px;
-    padding-bottom: 8px;
-
-}
 p {
     padding-left: 5px;
     border-radius: 3px;
@@ -62,26 +47,55 @@ article {
 }
 table {
 	border-collapse: collapse;
-    width: 100%;
+    width: 90%;
     background-color: rgb(180, 180, 180);
     text-align: left;
 }
 .GoMid {
     float: left;
-    width: 50%;
+    width: 40%;
     margin-top: 10px;
+}
+.GoMid h2 {    
+    align-items: center;
+    text-align: center;
+    width: 0 auto;
+    font-family:Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    border-width: 20px;
+    border: 5px double #75001E;
+    background-color: black;
+    color: white;
+    padding-top: 8px;
+    padding-bottom: 8px;
 }
 .GoLeft {
     float: left;
-    width: 25%;
+    width: auto;
     margin-left: 10px;
     padding-top: 10px;
 }
+.GoLeft h2 {
+    align-items: center;
+    text-align: center;
+    width: auto;
+    font-family:Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    border-width: 20px;
+    border: 5px double #75001E;
+    background-color: black;
+    color: white;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
 .newsletter {
     margin-top: 10px;
+    float: left;
 }
-.howlol label {
-    width: 40%;
+
+.howlol label{
+    width: auto;
+    float: right;
 }
 thead, tfoot {
     border-top: 2px solid black;
