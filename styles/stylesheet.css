@@ -6,6 +6,9 @@
 body{
     background-color: #75011e;
     margin: 0 auto;
+    width: 60%;
+    position: relative;
+    min-height: 100%;
 }
 
 img{
@@ -32,6 +35,19 @@ h1 {
     background-color: #BB0030;
     text-shadow: 8px 4px 6px rgb(245, 127, 49);
 }
+h2 {
+    width: 0 auto;
+    font-family:Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    border-width: 20px;
+    border: 5px double #75001E;
+    background-color: black;
+    color: white;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-align: center;
+}
+
 
 p {
     padding-left: 5px;
@@ -53,8 +69,9 @@ table {
 }
 .GoMid {
     float: left;
-    width: 40%;
+    width: 67%;
     margin-top: 10px;
+    margin-left: 10px;
 }
 .GoMid h2 {    
     align-items: center;
@@ -71,14 +88,14 @@ table {
 }
 .GoLeft {
     float: left;
-    width: auto;
+    width: 30%;
     margin-left: 10px;
     padding-top: 10px;
 }
 .GoLeft h2 {
     align-items: center;
     text-align: center;
-    width: auto;
+    width: 85%;
     font-family:Arial, Helvetica, sans-serif;
     border-radius: 10px;
     border-width: 20px;
@@ -91,11 +108,16 @@ table {
 .newsletter {
     margin-top: 10px;
     float: left;
+    width: 0 auto;
 }
 
-.howlol label{
+.howlol{
     width: auto;
+    margin-top: 10px;
     float: right;
+}
+.howlol buttonTwo {
+    align-content: center;
 }
 thead, tfoot {
     border-top: 2px solid black;
@@ -123,7 +145,20 @@ aside {
     padding-left: 20px;
 }
 
-/*How do i scale my list correctly, im strugglign with it*/
+.streamers {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 1em 0;
+    background-color:#8a8989;
+    border: outset;
+    color: white;
+    font-weight: bold;
+    margin-left: 10%;
+    padding: 30px;
+    margin-top: 50px;
+}
+
 #nav_menu ul {
 	list-style-type: none;
 	position: relative;
@@ -143,6 +178,7 @@ aside {
     border: outset;
     color: white;
     font-weight: bold;
+    
 }
 #nav_menu li:hover {
     color: #111;
@@ -180,12 +216,14 @@ input:valid {
 input:invalid {
 	box-shadow: none;
 }
+
 footer {
-	clear: both;
-    position: absolute;
+    position: fixed;
     bottom: 0;
+    right: 0;
+    left: 0;
     width: 100%;
-    background-color: #75001E;
+    background-color: transparent;
     text-align: center;
 }
 
