@@ -69,7 +69,7 @@ table {
 }
 .GoMid {
     float: left;
-    width: 67%;
+    width: 0 auto;
     margin-top: 10px;
     margin-left: 10px;
 }
@@ -88,14 +88,14 @@ table {
 }
 .GoLeft {
     float: left;
-    width: 30%;
+    width: 0 auto;
     margin-left: 10px;
     padding-top: 10px;
 }
 .GoLeft h2 {
     align-items: center;
     text-align: center;
-    width: 85%;
+    width: 88.5%;
     font-family:Arial, Helvetica, sans-serif;
     border-radius: 10px;
     border-width: 20px;
@@ -112,9 +112,10 @@ table {
 }
 
 .howlol{
-    width: auto;
     margin-top: 10px;
-    float: right;
+    margin-bottom: 20px;
+    float: left;
+
 }
 .howlol buttonTwo {
     align-content: center;
@@ -146,8 +147,9 @@ aside {
 }
 
 .streamers {
-    float: left;
-    display: block;
+    justify-content: center;
+    align-items: center;
+    display: inline-block;
     text-align: center;
     padding: 1em 0;
     background-color:#8a8989;
@@ -157,6 +159,7 @@ aside {
     margin-left: 10%;
     padding: 30px;
     margin-top: 50px;
+    margin-bottom: 20px;
 }
 
 #nav_menu ul {
